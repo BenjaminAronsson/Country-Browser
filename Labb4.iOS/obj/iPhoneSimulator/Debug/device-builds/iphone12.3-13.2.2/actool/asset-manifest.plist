@@ -51,44 +51,6 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./sweden.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./sweden.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./sweden.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./sweden.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./sweden.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./sweden.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./sweden.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./sweden.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.3-13.2.2/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "sweden.png" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./denmark.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./denmark.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./denmark.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./denmark.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./denmark.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./denmark.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./denmark.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./denmark.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.3-13.2.2/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "denmark.png" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./denmark.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./denmark.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./denmark.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -121,6 +83,25 @@
 			<string>/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.3-13.2.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "sweden.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./denmark.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./denmark.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./denmark.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./denmark.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./denmark.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./denmark.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./denmark.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./denmark.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.3-13.2.2/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "denmark.png" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -140,6 +121,25 @@
 			<string>/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.3-13.2.2/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "norway.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./sweden.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sweden.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sweden.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sweden.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sweden.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sweden.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sweden.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sweden.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.3-13.2.2/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "sweden.png" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

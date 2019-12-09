@@ -13,6 +13,7 @@ namespace Labb4
 
         public Country SelectedCountry
         {
+
             get
             {
                 return selectedCountry;

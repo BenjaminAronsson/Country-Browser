@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"Labb4.Android.dll",
 		"FormsViewGroup.dll",
 		"Labb4.dll",
+		"Newtonsoft.Json.dll",
+		"Ninject.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

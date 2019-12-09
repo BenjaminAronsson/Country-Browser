@@ -1,26 +1,33 @@
-﻿using System;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Net;
-using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Labb4
 {
-    public class CountryService
+    public class CountryService: ICountryService
     {
         private readonly string url;
-        private readonly HttpClient httpClient;
+        private readonly WebClient webClient;
+        private ICountryParser parser;
 
 
-        public CountryService()
+        public CountryService(ICountryParser parser)
         {
-             url = "https://restcountries.eu/rest/v2/all";
-            httpClient = new HttpClient();
+            this.parser = parser;
+            url = "https://restcountries.eu/rest/v2/all";
+            webClient = new WebClient();
         }
 
-        public void GetCountries()
+        public List<Country> GetCountries()
         {
-            var result = httpClient.GetAsync(url).Result;
-            Console.WriteLine(result);
+            var json = webClient.DownloadString(url);
+
+            
+
+            //parsing
+            var result = parser.Parse(json);
+
+            return result;
         }
     }
 }

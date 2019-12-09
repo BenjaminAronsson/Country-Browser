@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Ninject;
+using System.Reflection;
 
 namespace Labb4
 {
@@ -18,12 +20,11 @@ namespace Labb4
         {
             InitializeComponent();
 
-            // Load our data
-            //repository = new CountryRepository();
-            //SimpleViewModel vm = new SimpleViewModel();
+            var kernel = new StandardKernel();
+            kernel.Load(Assembly.GetExecutingAssembly());
+            ICountryRepository repo = kernel.Get<ICountryRepository>();
 
-            // Set the binding context
-            //this.BindingContext = vm;
+            BindingContext = new MainViewModel(repo);
         }
     }
 }

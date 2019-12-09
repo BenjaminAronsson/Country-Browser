@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable.Ninject/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -153,6 +171,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Portable.Ninject": "3.3.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.947036"
         },
@@ -165,6 +185,24 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable.Ninject/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -316,6 +354,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Portable.Ninject": "3.3.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.947036"
         },
@@ -328,6 +368,24 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable.Ninject/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -479,6 +537,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Portable.Ninject": "3.3.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.947036"
         },
@@ -491,6 +551,24 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portable.Ninject/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Ninject.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -642,6 +720,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Portable.Ninject": "3.3.1",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.947036"
         },
@@ -655,6 +735,68 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Portable.Ninject/3.3.1": {
+      "sha512": "hq+v/D/rxNSStlfV0hVlfIQKVEbj2AsZKcuuUqqPpOnuD6HSl4ku3fvgQ7u6ffAh6ZwHUBG3pdP7PS+eb+Kumw==",
+      "type": "package",
+      "path": "portable.ninject/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Wpa81/Ninject.dll",
+        "lib/Wpa81/Ninject.pri",
+        "lib/Wpa81/Ninject.xml",
+        "lib/Xamarin.iOS/Ninject.dll",
+        "lib/Xamarin.iOS/Ninject.xml",
+        "lib/monoandroid/Ninject.dll",
+        "lib/monoandroid/Ninject.xml",
+        "lib/monotouch/Ninject.dll",
+        "lib/monotouch/Ninject.xml",
+        "lib/net40-client/Ninject.dll",
+        "lib/net40-client/Ninject.xml",
+        "lib/portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid+Xamarin.iOS/Ninject.dll",
+        "lib/portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid+Xamarin.iOS/Ninject.xml",
+        "lib/sl5/Ninject.dll",
+        "lib/sl5/Ninject.xml",
+        "lib/win8/Ninject.dll",
+        "lib/win8/Ninject.pri",
+        "lib/win8/Ninject.xml",
+        "lib/wp8/Ninject.dll",
+        "lib/wp8/Ninject.xml",
+        "portable.ninject.3.3.1.nupkg.sha512",
+        "portable.ninject.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1011,6 +1153,8 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Labb4 >= 1.0.0",
+      "Newtonsoft.Json >= 12.0.3",
+      "Portable.Ninject >= 3.3.1",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.947036"
     ]
@@ -1050,6 +1194,14 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "Portable.Ninject": {
+            "target": "Package",
+            "version": "[3.3.1, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.3.1, )"

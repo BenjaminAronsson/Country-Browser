@@ -1,5 +1,7 @@
 /Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/bin/iPhoneSimulator/Debug/Labb4.iOS.exe
 /Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/bin/iPhoneSimulator/Debug/Labb4.iOS.pdb
+/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/bin/iPhoneSimulator/Debug/Ninject.dll
 /Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
 /Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
 /Users/dev/Documents/C# grunder/Labb4/Labb4.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
